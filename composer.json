@@ -1,0 +1,35 @@
+{
+    "name": "feiron/blueprints",
+    "description": "blueprint function suite for laravel feLaraFrame",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.2.1",
+        "feiron/felaraframe": ">=1.0",
+        "laravel/framework": ">=8.0"
+    },
+    "require-dev": {
+        "php": ">=7.2.1",
+        "feiron/felaraframe": ">=1.0",
+        "laravel/framework": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "Lucas",
+            "email": "yu0307@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "feiron\\fe_BluePrints\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "feiron\\fe_BluePrints\\FeBluePrintsServiceProvider"
+            ]
+        }
+    }
+}
