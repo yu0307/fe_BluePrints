@@ -21,7 +21,11 @@ class FeBluePrintsServiceProvider extends ServiceProvider {
             ]);
         }
 
-        $PackageName='feBluePrints';       
+        $PackageName='fe_blueprints';     
+        //loading route files for blueprints defined route if any
+        if(file_exists(base_path('routes/BluePrints/').'BluePrintsRoute.php')){
+            $this->loadRoutesFrom(base_path('routes/BluePrints/') . 'BluePrintsRoute.php');
+        }  
 
         //loading migration scripts
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
