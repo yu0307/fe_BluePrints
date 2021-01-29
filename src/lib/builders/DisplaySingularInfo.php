@@ -1,8 +1,8 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib\builders;
+namespace feiron\fe_blueprints\lib\builders;
 
-use feiron\fe_BluePrints\lib\BluePrintsMethodBuilderBase;
+use feiron\fe_blueprints\lib\BluePrintsMethodBuilderBase;
 
 class DisplaySingularInfo extends BluePrintsMethodBuilderBase {
 

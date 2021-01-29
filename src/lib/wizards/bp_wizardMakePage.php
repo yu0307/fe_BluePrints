@@ -1,8 +1,8 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib\wizards;
+namespace feiron\fe_blueprints\lib\wizards;
 
-use feiron\fe_BluePrints\lib\wizards\bp_wizardbase;
+use feiron\fe_blueprints\lib\wizards\bp_wizardbase;
 
 class bp_wizardMakePage extends bp_wizardbase
 {

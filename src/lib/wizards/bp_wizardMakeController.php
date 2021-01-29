@@ -1,7 +1,7 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib\wizards;
-use feiron\fe_BluePrints\lib\wizards\bp_wizardbase;
+namespace feiron\fe_blueprints\lib\wizards;
+use feiron\fe_blueprints\lib\wizards\bp_wizardbase;
 
 class bp_wizardMakeController extends bp_wizardbase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib;
+namespace feiron\fe_blueprints\lib;
 
 use Exception;
 use Illuminate\Support\Facades\Storage;

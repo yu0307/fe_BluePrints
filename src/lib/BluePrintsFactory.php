@@ -1,13 +1,13 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib;
+namespace feiron\fe_blueprints\lib;
 
 use Exception;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Artisan;
-use feiron\fe_BluePrints\lib\BluePrintsModelFactory;
-use feiron\fe_BluePrints\lib\BluePrintsViewFactory;
-use feiron\fe_BluePrints\lib\BluePrintsControllerFactory;
+use feiron\fe_blueprints\lib\BluePrintsModelFactory;
+use feiron\fe_blueprints\lib\BluePrintsViewFactory;
+use feiron\fe_blueprints\lib\BluePrintsControllerFactory;
 class BluePrintsFactory {
 
     private $blueprint; //stores the contents of the target blueprint.

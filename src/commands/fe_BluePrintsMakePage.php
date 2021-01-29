@@ -1,9 +1,9 @@
 <?php
 
-namespace feiron\fe_BluePrints\commands;
+namespace feiron\fe_blueprints\commands;
 
 use Illuminate\Console\Command;
-use feiron\fe_BluePrints\lib\wizards\bp_wizardMakePage;
+use feiron\fe_blueprints\lib\wizards\bp_wizardMakePage;
 
 class fe_BluePrintsMakePage extends Command
 {

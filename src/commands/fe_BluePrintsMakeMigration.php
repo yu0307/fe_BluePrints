@@ -1,9 +1,9 @@
 <?php
 
-namespace feiron\fe_BluePrints\commands;
+namespace feiron\fe_blueprints\commands;
 
 use Illuminate\Console\Command;
-use feiron\fe_BluePrints\lib\wizards\bp_wizardMakeMigration;
+use feiron\fe_blueprints\lib\wizards\bp_wizardMakeMigration;
 
 class fe_BluePrintsMakeMigration extends Command
 {

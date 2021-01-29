@@ -1,6 +1,6 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib\wizards;
+namespace feiron\fe_blueprints\lib\wizards;
 use Illuminate\Support\Facades\Storage;
 
 abstract class bp_wizardbase

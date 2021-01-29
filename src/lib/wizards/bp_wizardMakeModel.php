@@ -1,9 +1,9 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib\wizards;
-use feiron\fe_BluePrints\lib\wizards\bp_wizardbase;
-use feiron\fe_BluePrints\lib\wizards\bp_wizardMakeMigration;
-use feiron\fe_BluePrints\lib\BluePrintsModelFactory;
+namespace feiron\fe_blueprints\lib\wizards;
+use feiron\fe_blueprints\lib\wizards\bp_wizardbase;
+use feiron\fe_blueprints\lib\wizards\bp_wizardMakeMigration;
+use feiron\fe_blueprints\lib\BluePrintsModelFactory;
 use Illuminate\Support\Facades\Artisan;
 
 class bp_wizardMakeModel extends bp_wizardbase{

@@ -1,8 +1,8 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib\builders;
+namespace feiron\fe_blueprints\lib\builders;
 
-use feiron\fe_BluePrints\lib\BluePrintsViewBuilderBase;
+use feiron\fe_blueprints\lib\BluePrintsViewBuilderBase;
 
 class ViewSingular extends BluePrintsViewBuilderBase {
 

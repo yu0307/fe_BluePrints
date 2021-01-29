@@ -1,6 +1,6 @@
 <?php
 
-namespace feiron\fe_BluePrints;
+namespace feiron\fe_blueprints;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;

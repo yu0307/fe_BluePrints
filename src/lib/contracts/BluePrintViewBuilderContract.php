@@ -1,6 +1,6 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib\contracts;
+namespace feiron\fe_blueprints\lib\contracts;
 
 interface BluePrintViewBuilderContract
 {

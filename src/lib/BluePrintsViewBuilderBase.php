@@ -1,8 +1,8 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib;
+namespace feiron\fe_blueprints\lib;
 
-use feiron\fe_BluePrints\lib\contracts\BluePrintViewBuilderContract;
+use feiron\fe_blueprints\lib\contracts\BluePrintViewBuilderContract;
 
 abstract class BluePrintsViewBuilderBase implements BluePrintViewBuilderContract {
 

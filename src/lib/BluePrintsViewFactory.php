@@ -1,8 +1,8 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib;
+namespace feiron\fe_blueprints\lib;
 
-use feiron\fe_BluePrints\lib\BluePrintsBaseFactory;
+use feiron\fe_blueprints\lib\BluePrintsBaseFactory;
 
 class BluePrintsViewFactory extends BluePrintsBaseFactory {
 

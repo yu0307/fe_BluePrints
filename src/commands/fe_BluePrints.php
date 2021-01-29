@@ -1,9 +1,9 @@
 <?php
 
-namespace feiron\fe_BluePrints\commands;
+namespace feiron\fe_blueprints\commands;
 
 use Illuminate\Console\Command;
-use feiron\fe_BluePrints\lib\BluePrints;
+use feiron\fe_blueprints\lib\BluePrints;
 
 class fe_BluePrints extends Command
 {

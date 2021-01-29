@@ -1,9 +1,9 @@
 <?php
 
-namespace feiron\fe_BluePrints\lib;
+namespace feiron\fe_blueprints\lib;
 use Illuminate\Support\Facades\Storage;
-use feiron\fe_BluePrints\lib\BluePrintsFactory;
-use feiron\fe_BluePrints\lib\wizards\bp_wizardMakePage;
+use feiron\fe_blueprints\lib\BluePrintsFactory;
+use feiron\fe_blueprints\lib\wizards\bp_wizardMakePage;
 use Exception;
 class BluePrints {
     private $command;
@@ -15,7 +15,7 @@ class BluePrints {
     private const cachedDIR= 'blueprints/cached/';
     private const PathPrefix='blueprints/';
 
-    public function __construct(\feiron\fe_BluePrints\commands\fe_BluePrints $command){
+    public function __construct(\feiron\fe_blueprints\commands\fe_BluePrints $command){
         $this->command=$command;
         $this->storage=Storage::disk('local');
         $this->basecachedPath= $this->storage->path(self::cachedDIR);

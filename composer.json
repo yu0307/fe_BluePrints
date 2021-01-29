@@ -1,5 +1,5 @@
 {
-    "name": "feiron/blueprints",
+    "name": "feiron/fe_blueprints",
     "description": "blueprint function suite for laravel feLaraFrame",
     "type": "library",
     "license": "Apache-2.0",
@@ -22,13 +22,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "feiron\\fe_BluePrints\\": "src/"
+            "feiron\\fe_blueprints\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "feiron\\fe_BluePrints\\FeBluePrintsServiceProvider"
+                "feiron\\fe_blueprints\\FeBluePrintsServiceProvider"
             ]
         }
     }
